@@ -1,0 +1,77 @@
+body{
+	margin:0;
+}
+.container{
+	width:1200px;
+	margin: 0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+/*header area css strat*/
+header{
+	padding:20px 0;
+}
+.logo{
+	flex-basis:20%;
+}
+.logo img{
+	max-width:100%;
+}
+nav{
+	flex-basis:80%;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:flex-end;
+}
+nav ul li{
+	list-style:none;
+}
+nav ul li a{
+	text-decoration:none;
+	padding:0 20px;
+	display:block;
+	font-size:20px;
+	color:#232323;
+	text-transform:capitalize;
+}
+nav ul li a:hover{
+	color:#FF214F;
+	transition:  all .4s ease-in-out;
+}
+/*header area css end*/
+
+/*section start here*/
+section{
+	background-image:url(../images/portfolio-item57.jpg);
+	padding:350px 0;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position-y:top;
+	background-attachment:fixed;
+}
+h1{
+	width:380px;
+	background:#FF214F;
+	margin:0 auto;
+	padding:10px;
+	font-size:42px;
+	color:#fff;
+	text-align:center;
+}
+.section-two{
+	background-image:url(../images/portfolio-item58.jpg);
+}
+.section-three{
+	background-image:url(../images/portfolio-item59.jpg);
+}
+.section-four{
+	background-image:url(../images/portfolio-item60.jpg);
+}
+.section-five{
+	background-image:url(../images/portfolio-item61.jpg);
+}
+/*section end here*/
